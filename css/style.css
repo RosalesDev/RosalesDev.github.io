@@ -1,0 +1,64 @@
+:root {
+  --text-color-light: #fbfbfb;
+}
+
+.slogan {
+  display: inline-block;
+  position: relative;
+  color: #fbfbfb;
+  width: 320px;
+  top: 2em;
+  left: 4em;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+#main .main-left img {
+  width: 50px;
+}
+#main .main-right img {
+  width: 50px;
+}
+
+li a.active {
+  color: var(--text-color-light);
+  text-decoration-line: underline;
+  text-decoration-color: var(--text-color-light);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+#footer li a.text-color-light {
+  color: var(--text-color-light);
+}
+
+#productMainSection .product-card {
+  width: 20rem;
+  background-color: var(--text-color-light);
+  border-width: 0;
+  box-shadow: 0px 12px 20px black;
+}
+
+#productMainSection .product-card-stars img {
+  width: 23px;
+  height: auto;
+}
+
+#productMainSection .product-card-stars {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2.5rem;
+}
+
+#productMainSection .product-card .card-body a.btn {
+  padding: 0.375rem 20%;
+}
+
+#productMainSection .product-card .card-body a.btn:hover {
+  box-shadow: 0px 0px 10px greenyellow;
+}
+
+#productMainSection .product-card .card-body .card-price {
+  text-align: end;
+  font-size: 1.2rem;
+}
