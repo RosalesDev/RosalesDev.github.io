@@ -67,37 +67,59 @@
         </div>
       </nav>
     </header>
-    <main id="contactMainSection" class="dark-section">
-      <div>
-        <h2>por favor, escribe tu consulta o sugerencia</h2>
+    <main id="contactMainSection" class="bg-dark">
+      <div class="text-uppercase text-center text-light py-4">
+        <h2>Escribe tu consulta o sugerencia</h2>
       </div>
-      <div class="form-container">
+      <div class="container py-4 text-light">
         <form action="">
-          <label class="form-label" for="name">Nombre</label>
-          <input class="form-input" type="text" name="name" required />
-          <label class="form-label" for="lastName">Apellido</label>
-          <input class="form-input" type="text" name="lastName" required />
+          <div class="mb-3">
+            <label class="form-label" for="name">Nombre</label>
+            <input class="form-control" type="text" name="name" required />
+          </div>
 
-          <label class="form-label" for="email">Email</label>
-          <input class="form-input" type="email" name="email" required />
+          <div class="mb-3">
+            <label class="form-label" for="lastName">Apellido</label>
+            <input class="form-control" type="text" name="lastName" required />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" type="email" name="email" required />
+          </div>
 
           <fieldset class="form-fieldset">
             <legend>¿Qué deseas enviar?</legend>
-            <input type="radio" name="commentType" value="Sugerencia" checked />
-            <label class="form-label" for="commentType">Sugerencia</label>
+            <div class="mb-3 form-check-inline">
+              <input
+                type="radio"
+                name="commentType"
+                value="Sugerencia"
+                checked
+              />
+              <label class="form-label" for="commentType">Sugerencia</label>
+            </div>
 
-            <input type="radio" name="commentType" value="Consulta" />
-            <label class="form-label" for="commentType">Consulta</label>
+            <div class="mb-3 form-check-inline">
+              <input type="radio" name="commentType" value="Consulta" />
+              <label class="form-label" for="commentType">Consulta</label>
+            </div>
           </fieldset>
-          <label for="form-comment-text" class="form-label"> </label>
-          <textarea
-            name="form-comment-text"
-            cols="30"
-            rows="10"
-            required
-            placeholder="Escribe aquí tu comentario!"
-          ></textarea>
-          <input class="form-btn" type="submit" value="Enviar" />
+
+          <div class="mb-3">
+            <label for="form-comment-text" class="form-label"> </label>
+            <textarea
+              class="form-control"
+              name="form-comment-text"
+              cols="30"
+              rows="10"
+              required
+              placeholder="Escribe aquí tu comentario!"
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <input class="btn btn-success" type="submit" value="Enviar" />
+          </div>
         </form>
       </div>
     </main>
