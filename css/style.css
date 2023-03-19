@@ -1,16 +1,42 @@
 :root {
   --text-color-light: #fbfbfb;
+  --palette-cream: #ccb4a3;
+  --palette-black: #090707;
+  --palette-grey-1: #8c8c8c;
+  --palette-grey-2: #626160;
+  --pallette-coffee-1: #9f5e40;
+  --pallette-coffee-1-light: #a1745e;
+  --pallette-coffee-2: #5e4631;
+  --pallette-coffee-3: #562815;
 }
 
-.slogan {
-  display: inline-block;
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#header {
   position: relative;
-  color: #fbfbfb;
-  width: 320px;
-  top: 2em;
-  left: 4em;
+  box-shadow: 0 0px 9px black;
+}
+
+#header .logo h3 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.15em;
+  font-style: italic;
+  text-shadow: #2a2a2a 1px 0 5px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#section-hero .slogan {
+  color: var(--text-color-light);
+  width: 210px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5em;
   font-style: italic;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 #main .main-left img {
@@ -28,19 +54,15 @@ li a.active {
   text-underline-offset: 5px;
 }
 
-#footer li a.text-color-light {
-  color: var(--text-color-light);
-}
-
 #productMainSection .product-card {
   width: 20rem;
-  background-color: var(--text-color-light);
+  background-color: var(--palette-cream);
   border-width: 0;
   box-shadow: 0px 12px 20px black;
 }
 
 #productMainSection .product-card-stars img {
-  width: 23px;
+  width: 15px;
   height: auto;
 }
 
@@ -51,14 +73,65 @@ li a.active {
 }
 
 #productMainSection .product-card .card-body a.btn {
+  color: var(--text-color-light);
   padding: 0.375rem 20%;
+  background-color: var(--pallette-coffee-1);
 }
 
 #productMainSection .product-card .card-body a.btn:hover {
-  box-shadow: 0px 0px 10px greenyellow;
+  background-color: var(--pallette-coffee-1-light);
+  box-shadow: 0px 0px 15px var(--palette-cream);
 }
 
 #productMainSection .product-card .card-body .card-price {
   text-align: end;
   font-size: 1.2rem;
+}
+
+#serviceMainSection .service-main-secion-text {
+  height: 14rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-align: justify;
+}
+
+#aboutUsMainSection .about-us-main-section-text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-align: justify;
+}
+
+#footer {
+  position: relative;
+  box-shadow: 0 0px 9px black;
+}
+
+#footer li a.text-color-light {
+  color: var(--text-color-light);
+}
+
+@media screen and (min-width: 576px) {
+  #section-hero .slogan {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 310px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #section-hero .slogan h1 {
+    margin-left: 2.5rem;
+    font-size: 3rem;
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #section-hero .slogan {
+    margin-left: 9rem;
+    margin-top: 5rem;
+    width: 400px;
+  }
 }
