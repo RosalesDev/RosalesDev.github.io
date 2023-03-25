@@ -1,0 +1,154 @@
+#header {
+  position: relative;
+  box-shadow: 0 0px 9px black;
+}
+#header .logo h3 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.15em;
+  font-style: italic;
+  text-shadow: #2a2a2a 1px 0 5px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#section-hero .slogan {
+  color: #fbfbfb;
+  width: 210px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+#section-hero img {
+  width: 100%;
+}
+
+#main .main-left img {
+  width: 50px;
+}
+#main .main-right img {
+  width: 50px;
+}
+
+#productMainSection .product-card {
+  width: 20rem;
+  background-color: #ccb4a3;
+  border-width: 0;
+  box-shadow: 0px 12px 20px black;
+}
+#productMainSection .product-card-stars {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2.5rem;
+}
+#productMainSection .product-card-stars img {
+  width: 15px;
+  height: auto;
+}
+#productMainSection .product-card .card-body a.btn {
+  color: #fbfbfb;
+  padding: 0.375rem 20%;
+  background-color: #9f5e40;
+}
+#productMainSection .product-card .card-body a.btn:hover {
+  background-color: #a1745e;
+  box-shadow: 0px 0px 15px #ccb4a3;
+}
+#productMainSection .product-card .card-body .card-price {
+  text-align: end;
+  font-size: 1.2rem;
+}
+
+#serviceMainSection .service-main-secion-text {
+  height: 14rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-align: justify;
+}
+
+#aboutUsMainSection .about-us-main-section-text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-align: justify;
+}
+
+#contactMainSection .container {
+  max-width: 25rem;
+}
+#contactMainSection form .btn {
+  padding: 0.375rem 25%;
+}
+#contactMainSection form .form-fieldset {
+  border-color: #fbfbfb;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#footer {
+  position: relative;
+  box-shadow: 0 0px 9px black;
+}
+#footer li a.text-color-light {
+  color: #fbfbfb;
+}
+#footer li i {
+  padding: 5px 7px;
+  border-radius: 20%;
+}
+
+.social-color-twitter {
+  background: #00ACEE;
+}
+
+.social-color-facebook {
+  background: #3B5998;
+}
+
+.social-color-instagram {
+  background: radial-gradient(circle at 50% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+@media screen and (min-width: 1112px) {
+  #header .navbar .logo {
+    position: absolute;
+  }
+}
+@media screen and (min-width: 200px) {
+  #section-hero .slogan h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  #section-hero .slogan {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 310px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #section-hero .slogan h1 {
+    margin-left: 2.5rem;
+    font-size: 3rem;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #section-hero .slogan {
+    margin-left: 9rem;
+    margin-top: 5rem;
+    width: 400px;
+  }
+}
+li a.active {
+  color: #fbfbfb;
+  text-decoration-line: underline;
+  text-decoration-color: #fbfbfb;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}/*# sourceMappingURL=main.css.map */

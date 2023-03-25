@@ -1,0 +1,15 @@
+#section-hero {
+  .slogan {
+    color: $text-color-light;
+    width: 210px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  img {
+    width: 100%;
+  }
+}

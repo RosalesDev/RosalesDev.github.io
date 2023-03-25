@@ -1,0 +1,17 @@
+#contactMainSection {
+  .container {
+    max-width: 25rem;
+  }
+  form {
+    .btn {
+      padding: 0.375rem 25%;
+    }
+    .form-fieldset {
+      border-color: $text-color-light;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+}

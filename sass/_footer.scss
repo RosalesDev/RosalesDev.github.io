@@ -1,0 +1,23 @@
+@import "./maps";
+
+#footer {
+  position: relative;
+  box-shadow: 0 0px 9px black;
+  li {
+    a {
+      &.text-color-light {
+        color: $text-color-light;
+      }
+    }
+    i {
+      padding: 5px 7px;
+      border-radius: 20%;
+    }
+  }
+}
+
+@each $socialName, $color in $social-colors {
+  .social-color-#{$socialName} {
+    background: $color;
+  }
+}

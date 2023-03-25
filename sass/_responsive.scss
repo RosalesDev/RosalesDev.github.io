@@ -1,0 +1,39 @@
+@media screen and (min-width: 1112px) {
+  #header {
+    .navbar {
+      .logo {
+        position: absolute;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 200px) {
+  #section-hero .slogan h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #section-hero .slogan {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 310px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #section-hero .slogan h1 {
+    margin-left: 2.5rem;
+    font-size: 3rem;
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #section-hero .slogan {
+    margin-left: 9rem;
+    margin-top: 5rem;
+    width: 400px;
+  }
+}
