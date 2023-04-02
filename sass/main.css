@@ -34,7 +34,6 @@
 
 #productMainSection .product-card {
   width: 20rem;
-  background-color: #ccb4a3;
   border-width: 0;
   box-shadow: 0px 12px 20px black;
 }
@@ -55,6 +54,9 @@
 #productMainSection .product-card .card-body a.btn:hover {
   background-color: #a1745e;
   box-shadow: 0px 0px 15px #ccb4a3;
+}
+#productMainSection .product-card .card-body .card-old-price {
+  text-decoration: line-through;
 }
 #productMainSection .product-card .card-body .card-price {
   text-align: end;
