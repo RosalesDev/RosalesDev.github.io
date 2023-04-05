@@ -1,11 +1,20 @@
-@import 'variables';
+$text-color-light: #fbfbfb;
+$palette-cream: #ccb4a3;
+$palette-black: #090707;
+$palette-grey-1: #8c8c8c;
+$palette-grey-2: #626160;
+$pallette-coffee-1: #9f5e40;
+$pallette-coffee-1-light: #a1745e;
+$pallette-coffee-2: #5e4631;
+$pallette-coffee-3: #562815;
+
 @import 'header';
 @import './index-page/section-hero';
 @import './index-page/section-main';
 @import './product-page/section-main';
 @import './services-page/section-main';
 @import './about-page/section-main';
-@import './contact-page/section-main.scss';
+@import './contact-page/section-main';
 @import './footer';
 @import './responsive';
 @import 'util';

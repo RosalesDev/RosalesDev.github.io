@@ -1,8 +1,16 @@
+
 #productMainSection {
+  h1 {
+    font-family: "Oswald", sans-serif;
+  }
   .product-card {
     width: 20rem;
     border-width: 0;
     box-shadow: 0px 12px 20px black;
+    transition: 300ms ease all;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   .product-card-stars {

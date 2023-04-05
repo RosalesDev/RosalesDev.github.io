@@ -32,10 +32,17 @@
   width: 50px;
 }
 
+#productMainSection h1 {
+  font-family: "Oswald", sans-serif;
+}
 #productMainSection .product-card {
   width: 20rem;
   border-width: 0;
   box-shadow: 0px 12px 20px black;
+  transition: 300ms ease all;
+}
+#productMainSection .product-card:hover {
+  transform: scale(1.05);
 }
 #productMainSection .product-card-stars {
   display: flex;
@@ -63,6 +70,9 @@
   font-size: 1.2rem;
 }
 
+#serviceMainSection h1 {
+  font-family: "Oswald", sans-serif;
+}
 #serviceMainSection .service-main-secion-text {
   height: 14rem;
   font-family: "Oswald", sans-serif;
@@ -71,6 +81,9 @@
   text-align: justify;
 }
 
+#aboutUsMainSection h1 {
+  font-family: "Oswald", sans-serif;
+}
 #aboutUsMainSection .about-us-main-section-text {
   font-family: "Oswald", sans-serif;
   font-weight: 100;
@@ -78,6 +91,9 @@
   text-align: justify;
 }
 
+#contactMainSection h1 {
+  font-family: "Oswald", sans-serif;
+}
 #contactMainSection .container {
   max-width: 25rem;
 }
@@ -85,7 +101,6 @@
   padding: 0.375rem 25%;
 }
 #contactMainSection form .form-fieldset {
-  border-color: #fbfbfb;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;

@@ -7,12 +7,16 @@
     <meta name="keywords" content="café en grano,café molido,cápsulas,cafetera manual,cafeteras,latte,cappuccino,molinillo,nespresso,dolce gusto,espresso">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/icons/coffee-cup-favicon.png" />
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Google Fonts -->
     <link
     href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Oswald:wght@300;400;700&display=swap"
     rel="stylesheet"
     />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./sass/main.css" />
     <title>Coffee Bar</title>
   </head>
@@ -23,8 +27,11 @@
     <!-- ----------------------------------------------------------------------- -->
     <header id="header">
       <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-        <div class="container-fluid mx-md-5">
-            <a class="navbar-brand logo text-uppercase" href="#"><h3>Coffee Bar</h3></a>
+        <div class="container-fluid mx-md-5" data-aos="fade-down">
+            <a class="navbar-brand logo text-uppercase" href="#"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            ><h3>Coffee Bar</h3></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -68,7 +75,7 @@
 
     <section id="section-hero">
       <div class="container-fluid g-0">
-        <span class="slogan position-absolute"><h1>Café tostado con habilidad. Mezclado con arte.</h1></span>
+        <span class="slogan position-absolute"><h1>Café tostado con habilidad. Preparado con arte.</h1></span>
         <img
           src="./images/banner.jpg"
           class="img-fluid"
@@ -84,9 +91,11 @@
     <main id="main">
       <div class="container-fluid">
         <div class="container-fluid text-center my-5">
-          <h2>Características de nuestro café</h2>
+          <h2>Características, Preparación y Disfrute</h2>
         </div>
-        <div class="container-fluid mt-5 mx-0">
+        <div class="container-fluid mt-5 mx-0"
+        data-aos="fade-in"
+        data-aos-duration="1000">
           <div class="row justify-content-center">
 
             <!-- -- COLUMNA IZQUIERDO/FILA SUOERIOR (MOBILE) DE LA SECCIÓN PRINCIPAL --- -->
@@ -102,9 +111,9 @@
                 </div>
 
                 <div class="col-10 col-md-10 text-md-end">
-                  <h3 class="fs-5">Lorem</h3>
+                  <h3 class="fs-5">Aroma</h3>
                   <p class="fs-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modidolore nemo, quis illo odio, similique sit quos laudantium.
+                    Un café recién tostado y molido debe tener un aroma intenso y atractivo. Un aroma dulce y tostado puede ser una indicación de que el café se ha tostado correctamente y se ha almacenado adecuadamente.
                   </p>
                 </div>
               </div>
@@ -117,9 +126,9 @@
                 />
                 </div>
                 <div class="col-10 col-md-10 text-md-end">
-                  <h3 class="fs-5">Lorem</h3>
+                  <h3 class="fs-5">Molienda</h3>
                   <p class="fs-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modidolore nemo, quis illo odio, similique sit quos laudantium.
+                    La molienda es esencial para un buen café. La molienda adecuada es necesaria para extraer los sabores y aromas del café. La molienda fina es adecuada para la preparación de espresso, mientras que la molienda más gruesa se usa para métodos de preparación como la prensa francesa.
                   </p>
                 </div>
               </div>
@@ -132,9 +141,9 @@
                 />
                 </div>
                 <div class="col-10 col-md-10 text-md-end">
-                  <h3 class="fs-5">Lorem</h3>
+                  <h3 class="fs-5">Cafetera eléctrica</h3>
                   <p class="fs-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modidolore nemo, quis illo odio, similique sit quos laudantium.
+                    Las cafeteras eléctricas son una excelente opción para aquellos que buscan una preparación de café rápida y sin esfuerzo. Las cafeteras eléctricas vienen en diferentes tamaños y estilos, desde cafeteras de goteo hasta cafeteras espresso completamente automáticas.
                   </p>
                 </div>
 
@@ -145,7 +154,7 @@
 
             <div class="col-md-4 main-img text-center">
               <img
-              src="./images/MochaJava-Cropped_800x.png"
+              src="./images/mocha-java-cropped-800.png"
               class="img-fluid"
               alt="Imagen de una taza de cafée junto a una bolsa con granos de café."
             />
@@ -162,9 +171,9 @@
                 />
                 </div>
                 <div class="col-10 col-md-10">
-                  <h3 class="fs-5">Lorem</h3>
+                  <h3 class="fs-5">Granos</h3>
                   <p class="fs-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modidolore nemo, quis illo odio, similique sit quos laudantium.
+                    Los granos de café son la base de un buen café. Los granos de café de alta calidad, de origen único y tostados adecuadamente, son la clave para un café delicioso. Los granos frescos y recién tostados son la mejor opción para un sabor óptimo y una experiencia de café excepcional.
                   </p>
                 </div>
 
@@ -177,9 +186,9 @@
                 />
                 </div>
                 <div class="col-10 col-md-10">
-                  <h3 class="fs-5">Lorem</h3>
+                  <h3 class="fs-5">Cafetera manual</h3>
                   <p class="fs-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modidolore nemo, quis illo odio, similique sit quos laudantium.
+                    Desde el método de la prensa francesa hasta la elaboración de café con goteo manual, las cafeteras manuales permiten a los amantes del café controlar todo el proceso de elaboración, desde la cantidad de café y agua utilizados hasta el tiempo de elaboración.
                   </p>
                 </div>
 
@@ -192,9 +201,9 @@
                 />
                 </div>
                 <div class="col-10 col-md-10">
-                  <h3 class="fs-5">Lorem</h3>
+                  <h3 class="fs-5">Café para llevar</h3>
                   <p class="fs-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modidolore nemo, quis illo odio, similique sit quos laudantium.
+                    reparar un café para llevar en casa es una excelente opción para aquellos que están en movimiento o simplemente no tienen tiempo para sentarse y disfrutar de una taza de café recién hecha.
                   </p>
                 </div>
               </div>
@@ -210,16 +219,16 @@
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner w-50 m-auto py-5">
           <div class="carousel-item active">
-            <img src="./images/carousel/cup_of_coffee_1_16x9.jpg" class="d-block w-100" alt="Fotofrafía de una taza de café.">
+            <img src="./images/carousel/cup-of-coffee-1-16x9.jpg" class="d-block w-100" alt="Fotofrafía de una taza de café.">
           </div>
           <div class="carousel-item">
-            <img src="./images/carousel/cup_of_coffee_2_16x9.jpg" class="d-block w-100" alt="Fotofrafía de una taza de café con latte art.">
+            <img src="./images/carousel/cup-of-coffee-2-16x9.jpg" class="d-block w-100" alt="Fotofrafía de una taza de café con latte art.">
           </div>
           <div class="carousel-item">
-            <img src="./images/carousel/cup_of_coffee_3_16x9.jpeg" class="d-block w-100" alt="Fotofrafía de una taza de café con latte art.">
+            <img src="./images/carousel/cup-of-coffee-3-16x9.jpeg" class="d-block w-100" alt="Fotofrafía de una taza de café con latte art.">
           </div>
           <div class="carousel-item">
-            <img src="./images/carousel/woman_reading_16x9.avif" class="d-block w-100" alt="Fotografía de una mujer con una taza de café mirando una laptop.">
+            <img src="./images/carousel/woman-reading-16x9.avif" class="d-block w-100" alt="Fotografía de una mujer con una taza de café mirando una laptop.">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -267,5 +276,9 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
