@@ -3,10 +3,13 @@
     font-family: "Oswald", sans-serif;
   }
   .service-main-secion-text {
-    height: 14rem;
     font-family: "Oswald", sans-serif;
     font-weight: 100;
-    letter-spacing: 0.1em;
-    text-align: justify;
+    letter-spacing: 0.15em;
+    text-align: start;
+  }
+  img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px $palette-grey-2;
   }
 }
