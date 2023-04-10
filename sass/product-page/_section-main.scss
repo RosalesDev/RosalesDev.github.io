@@ -11,6 +11,25 @@
     &:hover {
       transform: scale(1.05);
     }
+    .card-body {
+      a.btn {
+        color: $text-color-light;
+        padding: 0.375rem 20%;
+        background-color: $pallette-coffee-1;
+  
+        &:hover {
+          background-color: $pallette-coffee-1-light;
+          box-shadow: 0px 0px 15px $palette-cream;
+        }
+      }
+      .card-old-price {
+        text-decoration: line-through;
+      }
+      .card-price {
+        text-align: end;
+        font-size: 1.2rem;
+      }
+    }
   }
 
   .product-card-stars {
@@ -20,25 +39,6 @@
     img {
       width: 15px;
       height: auto;
-    }
-  }
-  .product-card .card-body {
-    a.btn {
-      color: $text-color-light;
-      padding: 0.375rem 20%;
-      background-color: $pallette-coffee-1;
-
-      &:hover {
-        background-color: $pallette-coffee-1-light;
-        box-shadow: 0px 0px 15px $palette-cream;
-      }
-    }
-    .card-old-price {
-      text-decoration: line-through;
-    }
-    .card-price {
-      text-align: end;
-      font-size: 1.2rem;
     }
   }
 }

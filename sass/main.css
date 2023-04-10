@@ -15,10 +15,8 @@
   z-index: 1;
   color: #fbfbfb;
   width: 210px;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
+  font-family: "Playball", sans-serif;
   font-size: 1.5em;
-  font-style: italic;
   margin-left: 1rem;
   margin-top: 1rem;
 }
@@ -32,6 +30,9 @@
 #main .main-right img {
   width: 50px;
 }
+#main p {
+  font-family: "DM Sans", sans-serif;
+}
 
 #productMainSection h1 {
   font-family: "Oswald", sans-serif;
@@ -44,15 +45,6 @@
 }
 #productMainSection .product-card:hover {
   transform: scale(1.05);
-}
-#productMainSection .product-card-stars {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 2.5rem;
-}
-#productMainSection .product-card-stars img {
-  width: 15px;
-  height: auto;
 }
 #productMainSection .product-card .card-body a.btn {
   color: #fbfbfb;
@@ -70,14 +62,23 @@
   text-align: end;
   font-size: 1.2rem;
 }
+#productMainSection .product-card-stars {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2.5rem;
+}
+#productMainSection .product-card-stars img {
+  width: 15px;
+  height: auto;
+}
 
 #serviceMainSection h1 {
   font-family: "Oswald", sans-serif;
 }
 #serviceMainSection .service-main-secion-text {
-  font-family: "Oswald", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 100;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.05em;
   text-align: start;
 }
 #serviceMainSection img {
@@ -89,14 +90,17 @@
   font-family: "Oswald", sans-serif;
 }
 #aboutUsMainSection .about-us-main-section-text {
-  font-family: "Oswald", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 100;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   text-align: justify;
 }
 
 #contactMainSection h1 {
   font-family: "Oswald", sans-serif;
+}
+#contactMainSection h6 {
+  font-family: "DM Sans", sans-serif;
 }
 #contactMainSection .container {
   max-width: 25rem;
@@ -110,6 +114,13 @@
 #contactMainSection form .btn-container {
   display: grid;
   padding: 0%;
+}
+#contactMainSection form .btn {
+  background-color: #9f5e40;
+}
+#contactMainSection form .btn:hover {
+  background-color: #a1745e;
+  box-shadow: 0px 0px 15px #ccb4a3;
 }
 
 #footer {
@@ -156,7 +167,7 @@
 @media screen and (min-width: 768px) {
   #section-hero .slogan h1 {
     margin-left: 2.5rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
     width: 360px;
   }
 }
