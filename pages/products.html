@@ -23,6 +23,8 @@
     href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Oswald:wght@300;400;700&display=swap"
     rel="stylesheet"
     />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../sass/main.css" />
     <title>Coffee Bar | Productos</title>
   </head>
@@ -30,8 +32,8 @@
     <!-- ----------------------------------------------------------------------- -->
     <!--                                 HEADER                                  -->
     <!-- ----------------------------------------------------------------------- -->
-    <header id="header">
-      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <header id="header" class="sticky-top">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
         <div class="container-fluid mx-md-5">
           <a class="navbar-brand logo text-uppercase" href="#"
             ><h3>Coffee Bar</h3></a
@@ -79,11 +81,11 @@
     <!--                            SECCIÓN PRINCIPAL                            -->
     <!-- ----------------------------------------------------------------------- -->
     <main id="productMainSection" class="bg-dark">
-      <div class="container-fluid w-75 py-5">
+      <div class="container-fluid w-75 py-5" data-aos="fade-up">
         <div class="text-light text-center pb-5 text-uppercase"><h1>Nuestros Productos</h1></div>
         <div class="row row-gap-5">
           <!-- ---------------------------- PRODUCT CARD ----------------------------- -->
-          <div class="col d-flex justify-content-center">
+          <div id="capsules" class="col d-flex justify-content-center">
             <div class="card product-card">
               <img
                 src="../images/products/capsula-avellana-300-300.webp"
@@ -268,7 +270,7 @@
           </div>
 
           <!-- ---------------------------- PRODUCT CARD ----------------------------- -->
-          <div class="col d-flex justify-content-center">
+          <div id="capsuleCombo" class="col d-flex justify-content-center">
             <div class="card product-card">
               <img
                 src="../images/products/combo-40-capsulas-300-300.webp"
@@ -460,7 +462,7 @@
 
           <!-- ---------------------------- PRODUCT CARD ----------------------------- -->
 
-          <div class="col d-flex justify-content-center">
+          <div id="coffeeBeans" class="col d-flex justify-content-center">
             <div class="card product-card">
               <img
                 src="../images/products/cafe-en-grano-brasil-300-300.webp"
@@ -745,5 +747,9 @@
       integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

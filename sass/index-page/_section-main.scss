@@ -1,4 +1,8 @@
 #main {
+
+  .container-fluid {
+    padding-bottom: 3%;
+  }
   .main-left img {
     width: 50px;
   }
@@ -7,5 +11,11 @@
   }
   p {
     font-family: 'DM Sans', sans-serif;
+  }
+  h2 {
+    padding-bottom: 2.5%;
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
   }
 }

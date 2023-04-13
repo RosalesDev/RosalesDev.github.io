@@ -1,5 +1,5 @@
 #header {
-  position: relative;
+  position: sticky;
   box-shadow: 0 0px 9px black;
 }
 #header .logo h3 {
@@ -23,7 +23,45 @@
 #section-hero img {
   width: 100%;
 }
+#section-hero .carousel-container {
+  margin-top: -250px;
+  padding-bottom: 2%;
+}
+#section-hero .carousel-container .product-card {
+  width: 15rem;
+  border-width: 0;
+  box-shadow: 0px 12px 20px black;
+  transition: 300ms ease all;
+}
+#section-hero .carousel-container .product-card:hover {
+  transform: scale(1.05);
+}
+#section-hero .carousel-container .product-card .card-body .card-title {
+  font-size: 1rem;
+}
+#section-hero .carousel-container .product-card .card-body .card-old-price {
+  text-decoration: line-through;
+}
+#section-hero .carousel-container .product-card .card-body .card-price {
+  text-align: end;
+  font-size: 1.2rem;
+}
+#section-hero .carousel-container .product-card-stars {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2.5rem;
+}
+#section-hero .carousel-container .product-card-stars img {
+  width: 15px;
+  height: auto;
+}
+#section-hero .carousel-container .carousel-item a {
+  text-decoration: none;
+}
 
+#main .container-fluid {
+  padding-bottom: 3%;
+}
 #main .main-left img {
   width: 50px;
 }
@@ -32,6 +70,12 @@
 }
 #main p {
   font-family: "DM Sans", sans-serif;
+}
+#main h2 {
+  padding-bottom: 2.5%;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 #productMainSection h1 {
@@ -93,7 +137,6 @@
   font-family: "DM Sans", sans-serif;
   font-weight: 100;
   letter-spacing: 0.05em;
-  text-align: justify;
 }
 
 #contactMainSection h1 {
@@ -171,11 +214,21 @@
     width: 360px;
   }
 }
+@media screen and (max-width: 768px) {
+  #aboutUsMainSection .about-us-main-section-text {
+    text-align: justify;
+  }
+}
 @media screen and (min-width: 1400px) {
   #section-hero .slogan {
     margin-left: 9rem;
     margin-top: 5rem;
     width: 400px;
+  }
+}
+@media screen and (max-width: 1560px) {
+  .carousel-container {
+    display: none;
   }
 }
 li a.active {
