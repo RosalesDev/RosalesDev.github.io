@@ -23,41 +23,51 @@
 #section-hero img {
   width: 100%;
 }
-#section-hero .carousel-container {
-  margin-top: -250px;
-  padding-bottom: 2%;
+#section-hero .swiper {
+  width: 100%;
+  height: 26em;
+  padding-top: 10px;
 }
-#section-hero .carousel-container .product-card {
-  background-color: #81674e;
+#section-hero .swiper .swiper-slide a {
+  display: inline-block;
+  text-decoration: none;
+}
+#section-hero .swiper .swiper-slide .product-card {
+  background-color: #a1745e;
   width: 15rem;
   border-width: 0;
   box-shadow: 0px 12px 20px black;
   transition: 300ms ease all;
 }
-#section-hero .carousel-container .product-card:hover {
+#section-hero .swiper .swiper-slide .product-card:hover {
   transform: scale(1.05);
 }
-#section-hero .carousel-container .product-card .card-body .card-title {
+#section-hero .swiper .swiper-slide .product-card .card-body .card-title {
   font-size: 1rem;
 }
-#section-hero .carousel-container .product-card .card-body .card-old-price {
+#section-hero .swiper .swiper-slide .product-card .card-body .row {
+  flex-flow: nowrap;
+  align-items: baseline;
+}
+#section-hero .swiper .swiper-slide .product-card .card-body .card-old-price {
+  color: #8c8c8c;
   text-decoration: line-through;
 }
-#section-hero .carousel-container .product-card .card-body .card-price {
+#section-hero .swiper .swiper-slide .product-card .card-body .card-price {
   text-align: end;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
-#section-hero .carousel-container .product-card-stars {
+#section-hero .swiper .product-card-stars {
   display: flex;
   justify-content: space-evenly;
   padding: 0 2.5rem;
 }
-#section-hero .carousel-container .product-card-stars img {
+#section-hero .swiper .product-card-stars img {
   width: 15px;
   height: auto;
 }
-#section-hero .carousel-container .carousel-item a {
-  text-decoration: none;
+#section-hero .swiper-wrapper {
+  left: 10%;
 }
 
 #main .container-fluid {
@@ -231,9 +241,25 @@
     font-size: 4rem;
   }
 }
-@media screen and (max-width: 1560px) {
-  .carousel-container {
-    display: none;
+@media screen and (max-width: 992px) {
+  #section-hero .swiper {
+    height: 22em;
+  }
+  #section-hero .swiper .swiper-slide .product-card {
+    width: 10rem;
+  }
+  #section-hero .swiper .swiper-slide .product-card .card-body {
+    padding-bottom: 10px;
+  }
+  #section-hero .swiper .swiper-slide .product-card .card-body .card-title {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  #section-hero .swiper .swiper-slide .product-card .card-body .card-old-price {
+    font-size: 0.7rem;
+  }
+  #section-hero .swiper .swiper-slide .product-card .card-body .card-price {
+    font-size: 0.7rem;
   }
 }
 li a.active {

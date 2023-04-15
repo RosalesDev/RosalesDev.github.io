@@ -14,8 +14,6 @@
   }
 }
 
-
-
 @media screen and (min-width: 576px) {
   #section-hero .slogan {
     margin-left: 2rem;
@@ -44,14 +42,33 @@
     margin-top: 5rem;
     width: 400px;
     h1 {
-    font-size: 4rem;
+      font-size: 4rem;
     }
   }
 }
 
-@media screen and (max-width: 1560px){
-  .carousel-container {
-    display: none;
+@media screen and (max-width: 992px) {
+  #section-hero {
+    .swiper {
+    height: 22em;
+      .swiper-slide {
+        .product-card {
+          width: 10rem;
+          .card-body {
+            padding-bottom: 10px;
+            .card-title {
+              text-align: center;
+              font-size: 0.7rem;
+            }
+            .card-old-price {
+              font-size: 0.7rem;
+            }
+            .card-price {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
   }
-  
 }
