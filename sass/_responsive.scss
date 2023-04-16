@@ -47,7 +47,58 @@
   }
 }
 
+// @media screen and (max-width: 576px) {
+//   #productMainSection {
+//     .product-card {
+//       width: 10rem;
+//       .card-body {
+//         padding-bottom: 10px;
+//         .card-title {
+//           text-align: center;
+//           font-size: 0.7rem;
+//         }
+//         .card-old-price {
+//           font-size: 0.7rem;
+//         }
+//         .card-price {
+//           font-size: 0.7rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media screen and (max-width: 768px) {
+  #main {
+    h2 {
+      font-size: 1.5rem;
+    }
+    .row-paragraph {
+      margin-bottom: 15px;
+      border-style: solid;
+      border-radius: 5%;
+      border-width: 0 0 2px 0;
+      box-shadow: 0 7px 10px -5px gray;
+    }
+    .row-icon {
+      margin: 15px 0;
+      padding: 5px;
+      border-width: 0 0 2px 0;
+      border-style: solid;
+      border-radius: 15%;
+      border-color: $pallette-coffee-1-light;
+      box-shadow: 0 6px 10px -5px gray;
+    }
+  }
+}
+
 @media screen and (max-width: 992px) {
+  #main {
+    p {
+      font-size: 13px;
+    }
+
+  }
   #section-hero {
     .swiper {
     height: 22em;
