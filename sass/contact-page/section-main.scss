@@ -3,12 +3,19 @@
     font-family: "Oswald", sans-serif;
   }
   h6 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
   }
   .container {
     max-width: 25rem;
   }
   form {
+    .form-label {
+      color: grey;
+    }
+    .form-control {
+      color: $text-color-light;
+      background-color: $palette-input-bg;
+    }
     .form-fieldset {
       border-style: solid;
       border-width: 1px;
@@ -24,6 +31,13 @@
       &:hover {
         background-color: $pallette-coffee-1-light;
         box-shadow: 0px 0px 15px $palette-cream;
+      }
+    }
+    textarea {
+      resize: none;
+      &.form-control {
+      color: $palette-black;
+      background-color: $text-color-light;
       }
     }
   }

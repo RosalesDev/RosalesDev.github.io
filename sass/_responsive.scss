@@ -47,26 +47,18 @@
   }
 }
 
-// @media screen and (max-width: 576px) {
-//   #productMainSection {
-//     .product-card {
-//       width: 10rem;
-//       .card-body {
-//         padding-bottom: 10px;
-//         .card-title {
-//           text-align: center;
-//           font-size: 0.7rem;
-//         }
-//         .card-old-price {
-//           font-size: 0.7rem;
-//         }
-//         .card-price {
-//           font-size: 0.7rem;
-//         }
-//       }
-//     }
-//   }
-// }
+@media screen and (max-width: 576px) {
+  #productMainSection {
+    .product-card {
+      .card-img-top {
+        img {
+          width: 80%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 768px) {
   #main {
