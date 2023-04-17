@@ -11,6 +11,16 @@
   margin: 0;
 }
 
+#map h2 {
+  font-family: "Oswald", sans-serif;
+}
+#map p {
+  font-family: "DM Sans", sans-serif;
+}
+#map iframe {
+  padding: 0 7%;
+}
+
 #section-hero .slogan {
   z-index: 1;
   color: #fbfbfb;

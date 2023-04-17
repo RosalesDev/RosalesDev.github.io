@@ -11,6 +11,7 @@ $pallette-coffee-3: #562815;
 $pallette-coffee-4: #81674e;
 
 @import 'header';
+@import './index-page/general';
 @import './index-page/section-hero';
 @import './index-page/section-main';
 @import './product-page/section-main';
