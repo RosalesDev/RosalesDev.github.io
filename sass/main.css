@@ -270,7 +270,7 @@
     -webkit-hyphens: auto;
             hyphens: auto;
   }
-  #aboutUsMainSection .about-us-main-section-text {
+  #aboutUsMainSection .about-us-main-section-text p {
     text-align: justify;
     -webkit-hyphens: auto;
             hyphens: auto;
